@@ -5,7 +5,7 @@
 }
 
 body{
-    height: 700px;
+    height: 900px;
 }
 
 .container{
@@ -36,4 +36,50 @@ body{
     top: 0;
     left: 30px;
     width: 30%;
+}
+
+.community {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid blue;
+    height: calc(900px - 373px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p{
+    width: 70%;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 70%;
+}
+
+.media{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 40%;
+}
+
+.media button{
+    height: 30px;
+    width: 30px;
+    background: none;
+    border: 1px solid #fff;
+}
+
+.media button:hover{
+    background: pink;
+}
+
+.fab{
+    color: white;
 }
